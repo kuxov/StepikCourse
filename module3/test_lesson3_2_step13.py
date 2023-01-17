@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class MyTestCase(unittest.TestCase):
+class TestClass3(unittest.TestCase):
     def test_1(self):
         try:
             link = "http://suninjuly.github.io/registration1.html"
